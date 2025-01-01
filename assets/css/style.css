@@ -1,0 +1,22 @@
+/* Wildcard selector for base page design */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Banner Styling */
+#banner {
+    height: 300px;
+    width: 100%;
+    background: url("../images/2024-01-13.jpg") no-repeat center center/cover;
+    position: relative;
+    border: 2px solid #3a3a3a;
+}
+/* Media Queries */
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
