@@ -37,6 +37,7 @@ nav > li {
     padding: 12px;
     font-size: 120%;
     align-items: flex-start;
+    border-radius: 5px;
 }
 nav > li:last-child {
     margin-left: auto;
@@ -46,9 +47,7 @@ nav > li:last-child {
 }
 li:hover {
     box-shadow: 0 0 10px 0 #5cdeff,
-                0 0 30px 0 #5cdeff,
-                0 0 60px 0 #5cdeff,
-                inset 0 0 30px 0 #5cdeff;
+        inset 0 0 30px 0 #5cdeff;
     text-shadow: 0 0 10px #5cdeff;
 }
 /* Banner Styling */
