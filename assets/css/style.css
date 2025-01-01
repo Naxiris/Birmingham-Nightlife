@@ -1,15 +1,57 @@
 /* Wildcard selector for base page design */
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+}
+/* Generic Stylings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic styling */
+    background-color: #333333;
+}
+a {
+    color: white;
+}
+/* Navbar Styling */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid black;
+}
+nav > li {
+    padding: 12px;
+    font-size: 120%;
+    align-items: flex-start;
+}
+nav > li:last-child {
+    margin-left: auto;
+}
+.active {
+    background-color: #5e5e5e;
+}
+li:hover {
+    background-color: #000000;
 }
 /* Banner Styling */
 #banner {
-    height: 300px;
+    height: 200px;
     width: 100%;
     background: url("../images/2024-01-13.jpg") no-repeat center center/cover;
     position: relative;
-    border: 2px solid #3a3a3a;
+}
+#glitch-text {
+    background-color: rgba(255, 0, 0, 0.712);
+    color: aliceblue;
+    padding: 20px;
+    bottom: 30px;
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 /* Media Queries */
 /* Media query: large or landscape phones (576px and up) */
