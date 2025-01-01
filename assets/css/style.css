@@ -17,21 +17,20 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styling */
-    background-color: #000000;
+    background-color: #10002b;
 }
 a {
     color: white;
 }
 /* Navbar Styling */
 nav {
-    padding: 20px 40px;
+    padding: 5px 40px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     list-style: none;
-    border: 1px solid black;
-    border-bottom: 1px solid white;
+
 }
 nav > li {
     padding: 12px;
@@ -108,7 +107,7 @@ ul > li > #rules {
 width: 200px;
 height: 100px;
 background-color: red;
-border-radius: 6px;
+border-radius: 15px;
 position: absolute;
 left: max(calc(200px * 8), 100%);
 animation-name: scrollLeft;
