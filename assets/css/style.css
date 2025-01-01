@@ -2,6 +2,9 @@
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
 }
 *,
 *::before,
@@ -14,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styling */
-    background-color: #333333;
+    background-color: #000000;
 }
 a {
     color: white;
@@ -40,7 +43,7 @@ nav > li:last-child {
     background-color: #5e5e5e;
 }
 li:hover {
-    background-color: #000000;
+    background-color: #5e5e5e;
 }
 /* Banner Styling */
 #banner {
@@ -50,13 +53,30 @@ li:hover {
     position: relative;
 }
 #glitch-text {
-    background-color: rgba(255, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.7);
     color: aliceblue;
+    margin-top: 12%;
     padding: 20px;
     bottom: 30px;
     width: 30%;
     padding-top: 20px;
     padding-left: 10px;
+}
+/* Content sections*/
+#main-squeeze {
+    margin: 3%;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 150%;
+    background-color: #303030;
+    color: aliceblue;
+}
+ul > li > #rules {
+    list-style: upper-roman;
+    text-transform: capitalize;
+    text-align: center;
 }
 /* Fancy Stuff */
 
@@ -152,7 +172,6 @@ background-image: url("../images/Lab11.jpg");
 background-size: 100%;
 background-position: 0;
 }
-
 
 /* Media Queries */
 /* Media query: large or landscape phones (576px and up) */
