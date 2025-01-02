@@ -18,8 +18,10 @@ body {
     font-family: orbitron, lato, sans-serif;
 }
 a {
-    color: #000000;
+    color: #37ebf3;
+    font-size: 1.4rem;
     text-decoration: none;
+    text-align: center;
 }
 hr {
     display: none;
@@ -55,9 +57,9 @@ nav > li:last-child {
     background-color: #ca1dcd;
 }
 nav > li:hover {
-    box-shadow: 0 0 10px 0 #5cdeff,
-        inset 0 0 30px 0 #5cdeff;
-    text-shadow: 0 0 10px #5cdeff;
+    box-shadow: 0 0 10px 0 #37ebf3,
+        inset 0 0 30px 0 #37ebf3;
+    text-shadow: 0 0 10px #37ebf3;
 }
 /* Banner Styling */
 #banner {
@@ -128,9 +130,9 @@ text-align: center;
 clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0% 0%);
 }
 .item:hover {
-    box-shadow: 0 0 5px 0 #5cdeff,
-    inset 0 0 30px 0 #5cdeff;
-text-shadow: 0 0 10px #5cdeff;
+    box-shadow: 0 0 5px 0 #37ebf3,
+    inset 0 0 30px 0 #37ebf3;
+text-shadow: 0 0 10px #37ebf3;
 }
 /* Keyframe animation */
 @keyframes scrollLeft {
@@ -148,14 +150,14 @@ background-position: 0;
 
 .item2 {
 animation-delay: calc(30s / 8 * (8 - 2) * -1);
-background-image: url("../images/Lab11.jpg");
+background-image: url("../images/popworld.jpg");
 background-size: 100%;
 background-position: 0;
 }
 
 .item3 {
 animation-delay: calc(30s / 8 * (8 - 3) * -1);
-background-image: url("../images/Lab11.jpg");
+background-image: url("../images/flight-club.jpg");
 background-size: 100%;
 background-position: 0;
 }
@@ -199,8 +201,7 @@ background-position: 0;
 /* Media query: large or landscape phones (360px and up) */
 @media screen and (min-width: 360px) {
     #glitch-text {
-        font-size: 80%;
-        
+        font-size: 80%;        
     }
     #banner {
         height: 300px;
@@ -210,13 +211,13 @@ background-position: 0;
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #glitch-text {
-        font-size: 200%;
+        font-size: 100%;
     }
 }
 /* PC (Large monitors that have HD capabilities) */
 @media screen and (min-width: 1200px) {
     #glitch-text {
-        font-size: 300%;
+        font-size: 150%;
 
     }
 }
