@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic styling */
     background-color: #272932;
-    font-family: orbitron, lato, sans-serif;
+    font-family: lato, sans-serif;
 }
 a {
     color: #37ebf3;
@@ -28,6 +28,10 @@ hr {
 }
 p {
     padding-top: 5%;
+}
+h3 {
+    font-family: orbitron;
+    text-shadow: #37ebf3 2px 0 8px ;
 }
 /* Navbar Styling */
 nav {
